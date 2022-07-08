@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./asset/css/main.css">
+    <link rel="stylesheet" href="./asset/fonts/fontawesome-free-6.1.1-web/fontawesome-free-6.1.1-web/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <!--Nav-->
+        <div class="nav container">
+            <!--Logo-->
+            <a href="index.html" class="logo">
+                Group<span>9</span>
+            </a>
+            <!--Search Box-->
+            <div class="search-box">
+                <input type="search" name="" id="search-input" placeholder="Search movie">
+                <i class="search-box-icon fa-brands fa-searchengin"></i>
+            </div>
+            <!--User-->
+            <a href="#" class="user">
+                <img src="./asset/img/user.jpg" alt="" class="user-img">
+            </a>
+            <!-- Navbar -->
+            <div class="navbar">
+                <a href="home.php" class="nav-link nav--active">
+                    <i class="nav-link-icon fa-solid fa-house-user"></i>
+                    <span class="nav-link-title">Home</span>
+                </a>
+                <a href="#home" class="nav-link">
+                    <i class="nav-link-icon fa-brands fa-hotjar"></i>
+                    <span class="nav-link-title">Trending</span>
+                </a>
+                <a href="#home" class="nav-link">
+                    <i class="nav-link-icon fa-brands fa-wpexplorer"></i>
+                    <span class="nav-link-title">Explore</span>
+                </a>
+                <a href="#home" class="nav-link">
+                    <i class="nav-link-icon fa-solid fa-film"></i>
+                    <span class="nav-link-title">Movie</span>
+                </a>
+                <a href="#home" class="nav-link">
+                    <i class="nav-link-icon fa-solid fa-heart"></i>
+                    <span class="nav-link-title">Favourite</span>
+                </a>
+            </div>
+        </div>
+    </header>
+    <!-- Play Movies Container -->
+    <div class="play-container container">
+        <!-- play-image -->
+        <img src="./asset/play-page/play-background.jpg" alt="" class="play-img">
+        <!-- play-text -->
+        <div class="play-text">
+            <h2>Jumanji: Welcome to the Jungle</h2>
+            <!-- Rating -->
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <!-- Tags -->
+            <div class="tag">
+                <span>Action</span>
+                <span>Adventure</span>
+                <span>4K</span>
+            </div>
+            <!-- Trailer Button -->
+            <a href="#" class="watch-btn">
+                <i class="br fa-solid fa-play"></i>
+                <span>Watch the trailer</span>
+            </a>
+        </div>
+        <!-- Play-Btn -->
+        <i class="br fa-solid fa-play play-movie"></i>
+        <!-- Video Container -->
+        <div class="video-container">
+            <!-- Video-Box -->
+            <div class="video-box">
+                <video id="myvideo" src="./asset/play-page/Jumanji.mp4" controls></video>
+                <!-- CLose video icon -->
+                <i class="fa-solid fa-x close-video"></i>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- DOwnload -->
+    <div class="download">
+        <h2 class="download-title">Download Movie</h2>
+        <div class="download-link">
+            <a href="./asset/play-page/Jumanji.mp4" download>480p</a>
+            <a href="./asset/play-page/Jumanji.mp4" download>720p</a>
+            <a href="./asset/play-page/Jumanji.mp4" download>1080p</a>
+        </div>
+    </div>
+
+    <!-- Coppyright -->
+    <div class="copyright">
+        <p>&#169; Đỗ Nam</p>
+    </div>
+
+
+    <!-- Link Swiper files -->
+    <script src="./swiper-bundle.min.js"></script>
+    <!-- Link to js -->
+    <script src="./main.js"></script>
+</body>
+</html>
