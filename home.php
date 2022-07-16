@@ -27,9 +27,25 @@
                 <i class="search-box-icon fa-brands fa-searchengin"></i>
             </div>
             <!--User-->
-            <a href="#" class="user">
-                <img src="./asset/img/user.jpg" alt="" class="user-img">
-            </a>
+            <div class="both">
+                <a href="#" class="user">
+                    <img src="./asset/img/user.jpg" alt="" class="user-img">
+                </a>
+                <div class="nav-new">
+                    <ul class="nav-noti">
+                        <li class="nav-noti-list--1">
+                            <a href="logout.php" class="nav-noti-link">
+                                <span>Log out</span>
+                            </a>
+                        </li>
+                        <li class="nav-noti-list--2">
+                            <a href="" class="nav-noti-link">
+                                <span>View History</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
             <!-- Navbar -->
             <div class="navbar">
                 <a href="#home" class="nav-link nav--active">
